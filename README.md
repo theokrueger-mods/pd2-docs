@@ -1,5 +1,7 @@
 # pd2-docs
 
+https://theokrueger-mods.gitlab.io/pd2-docs/
+
 documentation for everything payday modding
 
 ## LICENSE
