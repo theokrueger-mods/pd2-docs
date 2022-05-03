@@ -1,6 +1,6 @@
 # Mod Structure
 
-An organised mod is inhherent to any well made mod. It is important to set up your mods in an orderly way to save yourself and others great pain.
+Good organisation is inhherent to any well made mod. It is important to set up your mods in an orderly way to save yourself and others great pain.
 
 ## Mod Definition
 
@@ -12,7 +12,7 @@ It is either named `mod.txt` if hooking using SuperBLT, or `mod.xml` if hooking 
 
 ## Hooks
 
-These are the files which contain the code you are 'injecting' into PAYDAY. It is important to either have descriptive names that show what the script does, such as `disable_flashlights.lua`.
+These are the files which contain the code you are 'injecting' into PAYDAY. It is important to either have descriptive names that show what the script does, such as `disable_hwn_flashlights.lua`.
 
 Alternatively, for multi-function mods which hook into many files, naming files what they hook into, such as `blackmarkettweakdata.lua` should suffice.
 
@@ -22,11 +22,11 @@ Some mods will add things like models or textures into the game, alongside Lua s
 
 ## Examples
 
-For a mod that disables flashlights:
+For a mod that disables halloween flashlights:
 ```
-disable_flashlights
+disable_halloween_flashlights
 ├── hooks
-│   └── disable_flashlights.lua
+│   └── disable_hwn_flashlights.lua
 └── mod.txt
 ```
 

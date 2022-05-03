@@ -1,4 +1,4 @@
-site_name: pd2 docs
+site_name: PAYDAY 2 Modding Documentation
 site_url: http://127.0.0.1:8000
 nav:
         - 'Index': 'index.md'
@@ -6,7 +6,8 @@ nav:
                 - 'Intro': 'lua/index.md'
                 - 'Structure': 'lua/structure.md'
                 - 'Mod Definition': 'lua/moddefinition.md'
-        - About: about.md
+                - 'Writing the Mod': 'lua/writingthemod.md'
+        - 'About': 'about.md'
 
 theme:
         name: null
