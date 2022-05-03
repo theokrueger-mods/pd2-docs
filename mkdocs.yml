@@ -2,10 +2,11 @@ site_name: pd2 docs
 site_url: http://127.0.0.1:8000
 nav:
         - Index: index.md
+        - About: about.md
 
 theme:
         name: null
         custom_dir: 'theme/mkdocs_windmill'
         static_templates: [404.html]
-        search_index_only: true
+        search_index_only: false
         include_search_page: true
