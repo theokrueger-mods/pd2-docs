@@ -1,7 +1,9 @@
 # pd2-docs
+
 documentation for everything payday modding
 
 ## LICENSE
+
 ```
     Copyright (C) 2022 theokrueger.
     Permission is granted to copy, distribute and/or modify this document
@@ -11,3 +13,6 @@ documentation for everything payday modding
     A copy of the license is included in the section entitled "LICENSE"
     and the file "LICENSE".
 ```
+
+[mkdocs](https://www.mkdocs.org/) is licensed under the `BSD 2-Clause "Simplified" License`
+[mkdocs-windmill](https://github.com/gristlabs/mkdocs-windmill) is licensed under the `MIT License`
