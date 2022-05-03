@@ -1,12 +1,1 @@
-site_name: pd2 docs
-#temp
-site_url: http://127.0.0.1:8000
-nav:
-        - Home: index.md
-theme:
-        name: null
-        custom_dir: 'theme/mkdocs_windmill'
-        # Copy settings from mkdocs_theme.yml, which is ignored by custom_dir themes.
-        static_templates: [404.html]
-        search_index_only: true
-        include_search_page: true
+site_name: My Docs
