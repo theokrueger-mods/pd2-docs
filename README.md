@@ -15,4 +15,5 @@ documentation for everything payday modding
 ```
 
 [mkdocs](https://www.mkdocs.org/) is licensed under the `BSD 2-Clause "Simplified" License`
+
 [mkdocs-windmill](https://github.com/gristlabs/mkdocs-windmill) is licensed under the `MIT License`
