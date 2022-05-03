@@ -19,9 +19,12 @@ test:
 pages:
   stage: deploy
   script:
-  - mkdocs build --verbose
+  - mkdocs build --site-dir public
   artifacts:
     paths:
     - public
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+    - when: manual
+  only:
+    - master
