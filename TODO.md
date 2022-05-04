@@ -43,3 +43,13 @@
 `hooks.md`
 
 * Proofread
+
+## `./docs/resources`
+
+`docs.md`
+
+* Elaborate
+
+`tools.md`
+
+* Elaborate
