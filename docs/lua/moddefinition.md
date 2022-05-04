@@ -44,11 +44,11 @@ Here is an example of a very minimal `mod.txt` file:
 
 ## Advanced Parameters
 
-`updates`: see [automatic updates](./automatic_updates.md)
+`updates`: see [automatic updates](./autoupdate.md)
 
 `contact`: email, website, or social media for mod users to contact you on
 
-`priority`: see [priority](./priority.md)
+`priority`: number indicating what point you want the mod to be loaded, relative to other mods.
 
 `dependencies`: see [dependencies](./dependencies.md)
 

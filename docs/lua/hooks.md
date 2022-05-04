@@ -1,4 +1,4 @@
-# Preserving Previous Functionality
+# Preserving Functionality
 
 Say we are trying to modify a tiny portion of a much larger function. It could work to entirely copy the function and just change the lines we want to, but if another mod ever touches that function, or if the game updates and that function is changed, issues will arise.
 
@@ -30,9 +30,9 @@ In `lib/tweak_data/infamynewtweakdata.lua`. Open this file yourself, and you wou
 
 We could just paste the whole thing and change our one line `self.ranks` to `501` or whatever. This is completely suboptimal because if this function is ever modified by the developers or any other modder, it will probably cause issues.
 
-Instead, we can use a Lua technique called 'oldinit'
+Instead, we can use a Lua technique called `old_init`
 
-## The oldinit
+## The `old_init`
 
 Lua has many fun tricks you can pull off due to its immense flexibility. One such thing is saving an entire function to a variable, then changing the function
 
@@ -56,7 +56,7 @@ This version is much more resistant to tampering from other mods or developer up
 
 ## SuperBLT Hooks
 
-It should work fine if you have a ton of these oldinit functions stacked on top of eachother, but so many nested functions and duplicated variables can cause performance or loadtime issues.
+It should work fine if you have a ton of these `old_init` functions stacked on top of eachother, but so many nested functions and duplicated variables can cause performance or loadtime issues.
 
 SuperBLT has built-in functions to help prevent this:
 
@@ -82,6 +82,6 @@ Hooks:PostHook(
 )
 ```
 
-This has the main disadvantage of **not being able to change the return value**. If you need to change the return value, try to use an 'oldinit'
+This has the main disadvantage of **not being able to change the return value**. If you need to change the return value, try to use an `old_init`
 
 Read the [vanilla BLT's documentation](https://payday-2-blt-docs.readthedocs.io/en/latest/lua/hooks/) to learn more.
