@@ -10,6 +10,9 @@ nav:
                 - 'Writing the Mod': 'lua/writingthemod.md'
         - 'Advanced Lua':
                 - 'Hooks': 'lua/hooks.md'
+        - 'Resources':
+                - 'Documentation': 'resource/docs.md'
+                - 'Tools': 'resoucres/tools.md'
         - 'About': 'about.md'
 
 theme:
