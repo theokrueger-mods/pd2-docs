@@ -12,7 +12,7 @@ They function as follows:
 
 ## Overriding a Function
 
-This is generally bad practise when writing mods for PAYDAY. It completely overwrites the function with your own
+This is generally bad practise when writing mods for PAYDAY. It completely overwrites the function with your own.
 
 If we wanted to increase the number of infamy ranks, we would have to modify the function
 

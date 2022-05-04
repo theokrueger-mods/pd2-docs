@@ -1,5 +1,7 @@
 # TODO LIST
 
+**proofread**
+
 ## `./`
 
 `mkdocs.yml`
@@ -36,4 +38,8 @@
 
 `moddefinition.md`
 
-* make this
+* Add images
+
+`hooks.md`
+
+* Proofread
