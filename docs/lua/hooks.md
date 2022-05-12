@@ -72,7 +72,7 @@ Hooks:PostHook(
          InfamyTweakData,
          -- function in that class
          'init',
-         -- id / custom name for our function
+         -- id / custom name for our addition
          'add_infamy_ranks',
          -- inserted function
          function(self)

@@ -1,6 +1,8 @@
-
-site_name: PAYDAY 2 Modding Documentation
+site_name: 'PAYDAY 2 Modding Documentation'
+site_description: 'See title'
 site_url: 'https://theokrueger-mods.gitlab.io/pd2-docs/'
+repo_url: 'https://gitlab.com/theokrueger-mods/pd2-docs/'
+
 nav:
         - 'Index': 'index.md'
         - 'Basic Lua':
@@ -10,7 +12,11 @@ nav:
                 - 'Writing the Mod': 'lua/writingthemod.md'
         - 'Advanced Lua':
                 - 'Hooks': 'lua/hooks.md'
-                - 'Auto Updates': 'lua/autoupdate.md'
+                - 'Automatic Updates': 'lua/autoupdate.md'
+        - 'Vanilla BLT':
+                - 'Index': 'blt/index.md'
+                - 'Utilities':
+                        - 'QuickMenu': 'blt/util/quickmenu.md'
         - 'Resources':
                 - 'Documentation': 'resource/docs.md'
                 - 'Tools': 'resource/tools.md'

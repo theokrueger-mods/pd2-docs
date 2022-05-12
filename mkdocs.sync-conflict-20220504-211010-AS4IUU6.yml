@@ -1,0 +1,17 @@
+site_name: PAYDAY 2 Modding Documentation
+site_url: 'https://theokrueger-mods.gitlab.io/pd2-docs/'
+nav:
+        - 'Index': 'index.md'
+        - 'Lua':
+                - 'Intro': 'lua/index.md'
+                - 'Structure': 'lua/structure.md'
+                - 'Mod Definition': 'lua/moddefinition.md'
+                - 'Writing the Mod': 'lua/writingthemod.md'
+        - 'About': 'about.md'
+
+theme:
+        name: null
+        custom_dir: 'theme/mkdocs_windmill'
+        static_templates: [404.html]
+        search_index_only: false
+        include_search_page: true
